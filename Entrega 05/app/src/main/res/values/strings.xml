@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Disease Controls</string>
+    <string name="textviewtextViewInformeADoenca">Inform the Disease</string>
+    <string name="Contagio">"Contagion: "</string>
+    <string name="radiobuttonContagioSimples">Simple (Air or Contact)</string>
+    <string name="radiobuttonContagioComplexo">Complex (Transfusion)</string>
+    <string name="checkboxPodeLevarAObto">"Does it lead to Obito? "</string>
+    <string name="doenca">"Illness: "</string>
+    <string name="medicamentos">"Medicine: "</string>
+    <string name="localidade">"Location: "</string>
+
+    <string name="sim">Yes</string>
+    <string name="nao">No</string>
+    <string name="buttonLimpar">To clean</string>
+    <string name="buttonSalvar">To record</string>
+    <string name="doencaInformada">Reported illness:</string>
+    <string name="primeirosSocorros">"First aid: "</string>
+    <string name="dozeHoras">Up to 12 hours</string>
+    <string name="vinteEQuatroHoras">Up to 24 hours</string>
+    <string name="acimaDeVinteQuatroHoras">Over 24 hours</string>
+    <string name="doencaDeveSerPreenchida">Illness must be reported</string>
+    <string name="medicamentosDeveSerPreenchida">Medication must be informed</string>
+    <string name="localidadeDeveSerPreenchida">Location must be informed</string>
+    <string name="TipoDeContágioDeveSerFornecido">Type of contagion must be informed</string>
+    <string name="textViewInformeoTipoDeContato">Inform the Type of Contagion:</string>
+    <string name="todosControlesForamReInicializados">All clean</string>
+
+    <string name="salvoComSucesso">Successfully saved</string>
+    <string name="doen_a">"Illness: "</string>
+    <string name="cont_gio">"Contagion: "</string>
+    <string name="leva_a_bto">"Does it lead to Obito: "</string>
+    <string name="socorro">Help:</string>
+    <string name="medicamento">"Medicine: "</string>
+    <string name="localidadee">"Location: "</string>
+    <string name="controle_do_hist_rico_de_ndoen_as_em_uma_localidade">Control of Disease History in a Location</string>
+    <string name="autor">Author:</string>
+    <string name="antonio_almeida" translatable="false">Antonio Almeida,</string>
+    <string name="medicamento_primeiros_socorros">Medicine (First Aid)</string>
+    <string name="localidade_contaminada">Contaminated Location</string>
+    <string name="novo">New</string>
+    <string name="alterar">Modify</string>
+    <string name="a_o_para_primeiros_socorros">Action for first aid:</string>
+    <string name="localidadehint">Location</string>
+    <string name="medicamentoshint">Medicine</string>
+    <string name="doen_ahint">Illness</string>
+    <string name="autor_antonio_carlos_ferreira_de_almeida" translatable="false">Antonio Carlos Ferreira de Almeida</string>
+    <string name="universidade_tecnol_gica_federal_do_paran" translatable="false">Universidade Tecnológica Federal do Paraná</string>
+    <string name="curso_especializa_o_t_cnologia_java" translatable="false">Especialização em Tecnologia Java</string>
+    <string name="curso">Course:</string>
+    <string name="app_til">APP Useful for persisting and retrieving data on diseases that massively affect the population, alerting people to first aid for those infected.</string>
+</resources>

@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Controle Histórico de Doenças</string>
+    <string name="textviewtextViewInformeADoenca">Informe a Doença</string>
+    <string name="Contagio">"Contágio: "</string>
+    <string name="radiobuttonContagioSimples">Simples</string>
+    <string name="radiobuttonContagioComplexo">Complexo</string>
+    <string name="checkboxPodeLevarAObto">"Leva a Óbto? "</string>
+    <string name="doenca">"Doença: "</string>
+    <string name="medicamentos">"Medicamento: "</string>
+    <string name="localidade">"Localidade: "</string>
+
+    <string name="sim">Sim</string>
+    <string name="nao">Não</string>
+    <string name="buttonLimpar">Limpar</string>
+    <string name="buttonSalvar">Gravar</string>
+    <string name="doencaInformada">Doença informada:</string>
+    <string name="primeirosSocorros">"Primeiros socorros: "</string>
+    <string name="dozeHoras">até 12 horas!</string>
+    <string name="vinteEQuatroHoras">até 24 horas!</string>
+    <string name="acimaDeVinteQuatroHoras">acima de 24 horas!</string>
+    <string name="doencaDeveSerPreenchida">Doença deve ser informada!</string>
+    <string name="medicamentosDeveSerPreenchida">Medicamento deve ser informado!</string>
+    <string name="localidadeDeveSerPreenchida">Localidade deve ser informada!</string>
+    <string name="TipoDeContágioDeveSerFornecido">Tipo de contágio deve ser informado!</string>
+    <string name="textViewInformeoTipoDeContato">Informe o Tipo de Contágio:</string>
+    <string name="todosControlesForamReInicializados">Todos limpos!</string>
+    <string name="editTextDoenca"></string>
+    <string name="salvoComSucesso">Gravado com sucesso!</string>
+</resources>

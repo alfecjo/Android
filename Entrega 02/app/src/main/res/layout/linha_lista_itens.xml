@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView_linha_Doenca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Doença:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewValorDoenca"
+        android:layout_width="113dp"
+        android:layout_height="17dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintStart_toEndOf="@+id/textView_linha_Doenca"
+        app:layout_constraintTop_toTopOf="@+id/textView_linha_Doenca" />
+
+    <TextView
+        android:id="@+id/textViewContagio"
+        android:layout_width="67dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:text="Contágio"
+        app:layout_constraintStart_toEndOf="@+id/textViewValorDoenca"
+        app:layout_constraintTop_toTopOf="@+id/textViewValorDoenca" />
+
+    <TextView
+        android:id="@+id/textViewValorContagio"
+        android:layout_width="114dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintStart_toEndOf="@+id/textViewContagio"
+        app:layout_constraintTop_toTopOf="@+id/textViewContagio" />
+
+    <TextView
+        android:id="@+id/textViewLevaAObto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Leva a óbto: "
+        app:layout_constraintStart_toStartOf="@+id/textView_linha_Doenca"
+        app:layout_constraintTop_toBottomOf="@+id/textView_linha_Doenca" />
+
+    <TextView
+        android:id="@+id/textViewValorPodeLevarAObto"
+        android:layout_width="62dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintStart_toEndOf="@+id/textViewLevaAObto"
+        app:layout_constraintTop_toTopOf="@+id/textViewLevaAObto" />
+
+    <TextView
+        android:id="@+id/textViewPrimeirosSocorros"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:text="Socorro:"
+        app:layout_constraintStart_toEndOf="@+id/textViewValorPodeLevarAObto"
+        app:layout_constraintTop_toTopOf="@+id/textViewValorPodeLevarAObto" />
+
+    <TextView
+        android:id="@+id/textViewValorPrimeirosSocorros"
+        android:layout_width="150dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintStart_toEndOf="@+id/textViewPrimeirosSocorros"
+        app:layout_constraintTop_toTopOf="@+id/textViewPrimeirosSocorros" />
+
+</android.support.constraint.ConstraintLayout>

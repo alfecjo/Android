@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".controller.CadastroActivity">
+
+    <EditText
+        android:id="@+id/editTextTextPersonNameDoenca"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:inputType="textCapWords|textPersonName"
+        android:text="@string/editTextDoenca"
+        app:layout_constraintStart_toStartOf="@+id/textViewInformeADoenca"
+        app:layout_constraintTop_toBottomOf="@+id/textViewInformeADoenca" />
+
+    <TextView
+        android:id="@+id/textViewInformeAFormaDeContato"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="#FFFFFF"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/textViewInformeoTipoDeContato"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonNameDoenca"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonNameDoenca" />
+
+    <TextView
+        android:id="@+id/textViewInformeADoenca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:background="#FFFFFF"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/textviewtextViewInformeADoenca"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.013"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/checkBoxPodeLevarAObto"
+        android:layout_width="300dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/checkboxPodeLevarAObto"
+        app:layout_constraintStart_toStartOf="@+id/radioGroupFormaDeContagio"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroupFormaDeContagio" />
+
+    <Spinner
+        android:id="@+id/spinnerFormaDeContagio"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="@+id/checkBoxPodeLevarAObto"
+        app:layout_constraintTop_toBottomOf="@+id/checkBoxPodeLevarAObto" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupFormaDeContagio"
+        android:layout_width="358dp"
+        android:layout_height="88dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonNameDoenca"
+        app:layout_constraintTop_toBottomOf="@+id/textViewInformeAFormaDeContato">
+
+        <RadioButton
+            android:id="@+id/radioButtonContagioSimples"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:text="@string/radiobuttonContagioSimples" />
+
+        <RadioButton
+            android:id="@+id/radioButtonContagioComplexo"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:text="@string/radiobuttonContagioComplexo" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textViewMedicamento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="#FFFFFF"
+        android:fontFamily="sans-serif-medium"
+        android:text="Medicamento (Primeiros Socorros)"
+        app:layout_constraintStart_toStartOf="@+id/spinnerFormaDeContagio"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerFormaDeContagio" />
+
+    <TextView
+        android:id="@+id/textViewLocalidade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="#FFFFFF"
+        android:fontFamily="sans-serif-medium"
+        android:text="Localidade Contaminada"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonNameMedicamento"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonNameMedicamento" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonNameMedicamento"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:inputType="textCapWords|textPersonName"
+        app:layout_constraintStart_toStartOf="@+id/textViewMedicamento"
+        app:layout_constraintTop_toBottomOf="@+id/textViewMedicamento" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonNameLocalidade"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:inputType="textCapWords|textPersonName"
+        app:layout_constraintStart_toStartOf="@+id/textViewLocalidade"
+        app:layout_constraintTop_toBottomOf="@+id/textViewLocalidade" />
+
+
+</android.support.constraint.ConstraintLayout>

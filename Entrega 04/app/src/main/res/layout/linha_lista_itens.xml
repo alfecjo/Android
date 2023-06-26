@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textViewDoenca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Doença:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewValorDoenca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toEndOf="@+id/textViewDoenca"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewContagio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Contágio:"
+        app:layout_constraintStart_toStartOf="@+id/textViewDoenca"
+        app:layout_constraintTop_toBottomOf="@+id/textViewDoenca" />
+
+    <TextView
+        android:id="@+id/textViewValorContagio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toEndOf="@+id/textViewContagio"
+        app:layout_constraintTop_toBottomOf="@+id/textViewDoenca" />
+
+    <TextView
+        android:id="@+id/textViewLevaAObto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center_horizontal|top"
+        android:text="Leva a óbto: "
+        app:layout_constraintStart_toStartOf="@+id/textViewContagio"
+        app:layout_constraintTop_toBottomOf="@+id/textViewContagio" />
+
+    <TextView
+        android:id="@+id/textViewValorLevarAObto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toEndOf="@+id/textViewLevaAObto"
+        app:layout_constraintTop_toBottomOf="@+id/textViewContagio" />
+
+    <TextView
+        android:id="@+id/textViewPrimeirosSocorros"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center_horizontal|top"
+        android:text="Socorro:"
+        app:layout_constraintStart_toStartOf="@+id/textViewLevaAObto"
+        app:layout_constraintTop_toBottomOf="@+id/textViewLevaAObto" />
+
+    <TextView
+        android:id="@+id/textViewValorPrimeirosSocorros"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toEndOf="@+id/textViewPrimeirosSocorros"
+        app:layout_constraintTop_toBottomOf="@+id/textViewLevaAObto" />
+
+    <TextView
+        android:id="@+id/textViewMedicamentos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Medicamento:"
+        app:layout_constraintStart_toStartOf="@+id/textViewPrimeirosSocorros"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPrimeirosSocorros" />
+
+    <TextView
+        android:id="@+id/textViewLocalidades"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center_horizontal|top"
+        android:text="Localidade:"
+        app:layout_constraintStart_toStartOf="@+id/textViewMedicamentos"
+        app:layout_constraintTop_toBottomOf="@+id/textViewMedicamentos" />
+
+    <TextView
+        android:id="@+id/textViewValorMedicamentos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toEndOf="@+id/textViewMedicamentos"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPrimeirosSocorros" />
+
+    <TextView
+        android:id="@+id/textViewValorLocalidades"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toEndOf="@+id/textViewLocalidades"
+        app:layout_constraintTop_toBottomOf="@+id/textViewMedicamentos" />
+
+</android.support.constraint.ConstraintLayout>

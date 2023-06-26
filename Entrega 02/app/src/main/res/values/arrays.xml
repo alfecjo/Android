@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="stringArrayDoenca">
+        <item>@string/Variola</item>
+        <item>@string/Dengue</item>
+        <item>@string/Malaria</item>
+        <item>@string/Xicungunha</item>
+        <item>@string/AedisEgipi</item>
+        <item>@string/FebreAmarela</item>
+        <item>@string/Meningite</item>
+        <item>@string/Leptospirose</item>
+        <item>@string/Impetigo</item>
+        <item>@string/Scabiose</item>
+    </string-array>
+
+    <string-array name="stringArrayContagio">
+        <item>@string/ContagioVariola</item>
+        <item>@string/ContagioDengue</item>
+        <item>@string/ContagioMalaria</item>
+        <item>@string/ContagioXicungunha</item>
+        <item>@string/ContagioAedisEgipi</item>
+        <item>@string/ContagioFebreAmarela</item>
+        <item>@string/ContagioMeningite</item>
+        <item>@string/ContagioLeptospirose</item>
+        <item>@string/ContagioImpetigo</item>
+        <item>@string/ContagioScabiose</item>
+    </string-array>
+
+    <integer-array name="integerArraytipoPodeLevarAObto">
+        <item>0</item>
+        <item>1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>0</item>
+        <item>1</item>
+    </integer-array>
+
+    <integer-array name="integerArrayprimeirosSocorros">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>0</item>
+    </integer-array>
+
+</resources>

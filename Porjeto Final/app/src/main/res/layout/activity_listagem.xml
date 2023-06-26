@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutListagem"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/backgroundcolor"
+    android:orientation="vertical"
+    tools:context=".controller.ListagemActivity">
+
+    <ListView
+        android:id="@+id/listViewControleHis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:backgroundTint="?attr/tintcolor"
+        android:divider="?attr/textcolor"
+       android:dividerHeight="1dp" >
+
+    </ListView>
+
+    <Switch
+        android:id="@+id/switchTrocaTemaListagem"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="89dp"
+        android:padding="6dp"
+        android:scaleX="1.3"
+        android:scaleY="1.3"
+        android:switchMinWidth="40dp"
+        android:textColor="?attr/textcolor"
+        android:textSize="8sp"
+        android:trackTint="?attr/textcolor" />
+
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Controle do Histórico de Doenças em uma Localidade</string>
+    <string name="textviewtextViewInformeADoenca">Informe a Doença</string>
+    <string name="editTextDoenca" />
+    <string name="radiobuttonContagioSimples">Contágio Simples</string>
+    <string name="radiobuttonContagioComplexo">Contágio Complexo</string>
+    <string name="checkboxPodeLevarAObto">Pode Levar a Óbto?</string>
+    <string name="buttonLimpar">Limpar</string>
+    <string name="buttonSalvar">Salvar</string>
+    <string name="doencaInformada">Doença informada:</string>
+    <string name="doencaPodeLevarAObito">Doença pode levar a óbito!</string>
+    <string name="doencaNaoLevaAObto">Doença não leva a óbito!</string>
+    <string name="seisHoras">Primeiros socorros em até 6 horas!</string>
+    <string name="dozeHoras">Primeiros socorros em até 12 horas!</string>
+    <string name="vinteEQuatroHoras">Primeiros socorros em até 24 horas!</string>
+    <string name="acimaDeVinteQuatroHoras">Primeiros socorros acima de 24 horas!</string>
+    <string name="doencaDeveSerPreenchida">Doença deve ser preenchida!</string>
+    <string name="TipoDeContágioDeveSerFornecido">Tipo de contágio deve ser fornecido!</string>
+    <string name="textViewInformeoTipoDeContato">Informe o Tipo de Contágio:</string>
+    <string name="todosControlesForamReInicializados">Todos controles foram re-inicializados!</string>
+</resources>

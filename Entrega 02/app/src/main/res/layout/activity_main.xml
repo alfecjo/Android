@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editTextTextPersonNameDoenca"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:inputType="textCapWords|textPersonName"
+        android:text="@string/editTextDoenca"
+        app:layout_constraintStart_toStartOf="@+id/textViewInformeADoenca"
+        app:layout_constraintTop_toBottomOf="@+id/textViewInformeADoenca" />
+
+    <TextView
+        android:id="@+id/textViewInformeADoenca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/textviewtextViewInformeADoenca"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.093"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewInformeAFormaDeContato"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/textViewInformeoTipoDeContato"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonNameDoenca"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonNameDoenca" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupFormaDeContagio"
+        android:layout_width="369dp"
+        android:layout_height="133dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonNameDoenca"
+        app:layout_constraintTop_toBottomOf="@+id/textViewInformeAFormaDeContato">
+
+        <RadioButton
+            android:id="@+id/radioButtonContagioSimples"
+            android:layout_width="351dp"
+            android:layout_height="57dp"
+            android:text="@string/radiobuttonContagioSimples" />
+
+        <RadioButton
+            android:id="@+id/radioButtonContagioComplexo"
+            android:layout_width="351dp"
+            android:layout_height="70dp"
+            android:text="@string/radiobuttonContagioComplexo" />
+    </RadioGroup>
+
+    <CheckBox
+        android:id="@+id/checkBoxPodeLevarAObto"
+        android:layout_width="213dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/checkboxPodeLevarAObto"
+        app:layout_constraintStart_toStartOf="@+id/radioGroupFormaDeContagio"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroupFormaDeContagio" />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:onClick="limparCampos"
+        android:text="@string/buttonLimpar"
+        app:layout_constraintStart_toStartOf="@+id/spinnerFormaDeContagio"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerFormaDeContagio" />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:onClick="cadastro"
+        android:text="@string/buttonSalvar"
+        app:layout_constraintEnd_toEndOf="@+id/spinnerFormaDeContagio"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerFormaDeContagio" />
+
+    <Spinner
+        android:id="@+id/spinnerFormaDeContagio"
+        android:layout_width="282dp"
+        android:layout_height="76dp"
+        android:layout_marginTop="44dp"
+        app:layout_constraintStart_toStartOf="@+id/checkBoxPodeLevarAObto"
+        app:layout_constraintTop_toBottomOf="@+id/checkBoxPodeLevarAObto" />
+
+
+
+</android.support.constraint.ConstraintLayout>
