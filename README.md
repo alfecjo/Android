@@ -148,7 +148,7 @@ git clone https://github.com/alfecjo/Java-II.git
 ```
 ## Uso
 
-1. Execute em sua IDE de preferência. Contudo, o desenvolvimento foi feito no Android Studio! Respeite as orientações de versões, pois arquitetura Android leva muito a sério este assunto, MUITO A SÉRIO!!!
+1. Execute em sua IDE de preferência. Contudo, o desenvolvimento foi feito no Android Studio! Respeite as orientações de versões, pois arquitetura Android leva muito a sério este assunto, MUITO A SÉRIO (sessão: Deve-se utilizar: acima)!!!
 
 ## Contribuição
 
