@@ -1,53 +1,77 @@
-# ## Desenvolvimento com:
+# ☕ Android..
+![android](android.jpg)
 
-O Android Studio Dolphin 2021.3.1 ou superior (apenas versões estáveis);
-Versão do Gradle específica da versão do Android Studio utilizada;
-Minimum API Level 16 (minSdkVersion 16 no build.gradle (Module: app), que irá alterar a geração do AndroidManifest.xml);
-targetSDK Version para a API Level 31 (Android 12.0) ou superior.
+## Este material foi desenvolvido em resposta a disciplina 'Java II', a qual faz parte do curso de Pós Graduação em Tecnologia Java, ministrado pela Universidade Tecnológica Federal do Paraná.
+🎉 Os projetos, são exercícios solicitados ao longo do curso que juntos perfazem a nota que compõem a média final.
 
-### Objetivo
+🥋 Se você está entrando no Java agora, vou deixar um comentário apenas para orientá-lo, caso considere o código deste exercício estranho. Este exercício, em especial, foi considerado pelo professor e os demais colegas, o mais HARD de toda a Pós na disciplina Java II, sem exageros e caso não entenda de primeira, continue tentando, pois, o sucesso não só reside nos melhores, más também, nos persistentes, que considero meu caso (_😎tirei nota máxima_). Desenvolver software, nada mais é que descartar a possibilidade de desistência, independente de qualquer motivo! Esta aplicação roda 10 threads em paralelo, más, poderia rodar quantas você quisesse...(claro!!! Guardadas as proporções de memória)
 
-#### 🌱 O objetivo geral foi desenvolver e cumprir os requisitos estabelecidos pelo cronograma da disciplina Android.
+## Corrida de Motocicletas
 
-#### 📫 REQUISITOS:
+😵 Objetivo:
 
-#### ⚡ 
-####  LISTA DE REQUISITOS A SEREM SEGUIDOS:
+Exercitar o conceito e a prática de Race Condition e Critical Sections através do uso de sincronismo de métodos e/ou objetos para simular uma corrida de motos onde o ganhador é aquele que somar mais pontos ao acessar a região crítica (ou linha de chegada).
 
-I) Há diversos requisitos que envolvem a programação. Todos representados por requisitos textuais e que indicam todas
-as características de construção;
+👨‍💻 Requisitos:
 
-II) Em cada atividade, bem como, na prova, é disponibilizado um arquivo .pdf;
+1. (10 pts) O programa deve criar no mínimo 10 threads que vão representar cada competidor, cada competidor deve usar o seguinte nome: Competidor #N (onde N é o número da thread)
 
-III) Toda a regra de negócio se encontra dentro destes arquivos. Para total compreendimento:
+2. (10 pts) Haverá no mínimo 10 corridas
 
-- abra o pdf em uma janela;
-- abra o projeto em outra janela. Preferencialmente, use IDE Android Studio Dolphin 2021.3.1 ou superior
-  e caso deseje outra IDE, promova as modificações necessárias;
-- As atividades foram desenvolvidas em emulador e dispositivo físico, até completar todos os requisitos
-  ofertados nos enunciados, de forma que a entrega 02 é uma evolução da entrega 01 e assim por diante
-  até que todos os requisitos forem cumpridos. Deste ponto em diante, o próximo requisíto é:
+3. (10 pts) Uma corrida só inicia após o fim da corrida anterior, ou seja, quando todos os competidores cruzarem a linha de chegada (área crítica)
 
-VI) A elevação do projeto que se encontra na modalidade celular, ou seja, tem a apresentação e execução no 
-formato App;
+4. (30 pts) O placar da nossa corrida será contabilizado toda vez que um corredor cruzar a linha de chegada (área crítica), o competidor receberá pontos de acordo com sua posição de chegada ou seja: competidor 3 chegou primeiro na área sincronizada, recebe 10 pontos, o competidor 5 chegou em segundo, recebe 9 pontos, e assim sucessivamente até que o ultimo a cruzar a linha de chegada ganhe 1 ponto
 
-V) O último item, corresponde a avaliação, a qual a disciplina se submete;
+5. (10 pts) As 10 corridas formam um campeonato, ganhará aquele que somar o maior número de pontos no campeonato
 
-VI) Todos os codigos apresentados aqui foram entregues exatamente como são vistos. Não foram modificados,
-nem tão pouco houve a necessidade de correção, pois todas as atividades entregues atingiram nota máxima;
+6. (10 pts) Ao final do campeonato deverá ser apresentado o placar com o total dos pontos e o pódio
 
-#### ⚡ Para execução de cada atividade:
+🕵️ Critérios de aceite e avaliação do exercício:
 
-- As atividades foram construidas cronologicamente em momentos futuros. Isso implica em uma hierarquia
-  cronológica, portando, embora funcionem individualmente. Para completo intendimento se faz necessário
-  copiar o repositório e executar ordenando por tempo, passando pela entrega 01, consequênte, a 02 e
-  assim por diante:
+1. Cada requisito possui um peso que compõe 80 pontos no total, cumpra todos para ter nota máxima, cumpra alguns e sua nota será aplicada conforme cada requisito implementado.
 
-- A cópia do material é de domínio público, contudo, há utilize de forma inteligente.
-  
-- Caso pretenda fazer as entregas para o curso, se utilizando do mesma codificação, saiba
-  que há algoritmos capaz de verificar entregas passíveis de cópia, sem falar que é de total despropósito
-  passar pelo curso sem aprender, pois, um dia, quando for cobrado, terá bagagem suficiente e será
-  reconpensado pelo esforço.
+2. Estrutura do código (uso das regras de escrita da linguagem, estrutura) e parametrização dos valores de corridas e competidores (sim, eu posso querer ter um campeonato com 20 participantes e 30 corridas) terão peso de 10 pontos
 
-- Espero ter contribuido e boa sorte!!!
+3. Entrega no prazo, 10 pontos
+
+🎯 Importante:
+
+- Cópias e/ou exercícios duplicados/idênticos serão descartados, apenas os pontos da entrega (se feita no prazo) serão contabilizados.
+
+- Faça o programa todo em apenas uma classe, utilize recursos como classes aninhadas para organização, caso envie o projeto e/ou PDF's ou vários arquivos, sua atividade não será avaliada e o ato do reenvio da mesma incorrerá em desconto por atraso
+
+- Envie APENAS o arquivo .java do programa, nada mais.
+
+- O objetivo da atividade também é parte da avaliação!
+
+- Envios com atraso tem o desconto da pontualidade (acima, item 3) e desconto de 1 ponto por dia de atraso, por exemplo: se vc atrasar 1 dia, terá 1 ponto de desconto por atraso + 10 da pontualidade, totalizando 11 pontos a menos na nota.
+
+# Tecnologia utilizada:
+
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+
+## Tabela de Conteúdos
+
+- [Instalação](#Instalação)
+- [Uso](#Uso)
+- [Contribuição](#Contribuição)
+
+## Instalação
+
+1. Clone o repositório ou baixe o arquivo .zip:
+
+```bash
+git clone https://github.com/alfecjo/Java-II.git
+```
+## Uso
+
+1. Execute em sua IDE de preferência. Contudo, o desenvolvimento foi feito no IntelliJ! Você pode começar com: "mvn install", no diretório raiz, que é onde se encontra o
+   arquivo pom.xml. Desta forma, serão baixadas as dependências, caso seja necessário.
+
+## Contribuição
+
+Contribuições são bem-vindas! Se você encontrar algum problema ou tiver sugestões de melhorias, abra um problema ou envie uma solicitação pull ao repositório.
+
+Ao contribuir para este projeto, siga o estilo de código existente, [convenções de commit](https://www.conventionalcommits.org/en/v1.0.0/), e envie suas alterações em um branch separado.
+
+Muito obrigado!!
