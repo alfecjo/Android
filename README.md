@@ -83,7 +83,17 @@ Na Activity de Cadastro (Feito na Entrega 1):
 - Altere a Activity com informações sobre a Autoria do Aplicativo:
 incluindo um botão Up na barra do App, que quando clicado retorna para a Activity de Listagem.
 
+## 5️⃣ Entrega 05:
 
+### 👨‍💻 Faça uma nova versão do projeto submetido na Entrega 4 incluindo a persistência através de SharedPreferences de configurações do aplicativo e a internacionalização para dois idiomas.
+
+- Neste projeto além do entregue na versão anterior, deve-se:
+
+   - Internacionalizar o aplicativo incorporando suporte a dois idiomas, o Inglês geral como padrão e o português do Brasil como opcional.
+        - Todos os textos fixos de interface devem ter as duas opções de tradução, sejam os apresentados na Activity ou os mostrados em janelas modais ou em caixas de mensagens (como Toast).
+   - Incorporar alguma funcionalidade de configuração/personalização do aplicativo por parte do usuário, sendo que as escolhas feitas por ele serão persistidas no dispositivo através do uso de SharedPreferences.
+      - Exemplos: escolher forma de ordenação de itens em uma lista; se campos do cadastro já aparecerão com sugestão de preenchimento; se o aplicativo será apresentado utilizando outro tema ou o modo noturno; mostrar as funcionalidades mais usadas em destaque; e etc.
+      - Não serão aceitos trocar a cor de fundo de layout (exemplo passado), ou salvar login e senha de usuário (visto que o aplicativo é para uso sem conexão).
     
 
 
