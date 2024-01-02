@@ -2,53 +2,47 @@
 ![android](android.jpg)
 
 ## Este material foi desenvolvido em resposta a disciplina 'Android para Dispositivos Móveis', a qual faz parte do curso de Pós Graduação em Tecnologia Java, ministrado pela Universidade Tecnológica Federal do Paraná.
-🎉 Os projetos (contidos nos diretórios), são entregas, dependêntes entre si, solicitados ao longo do curso que juntos perfazem a nota que compõem a média final.
+🎉 Os projetos (contidos nos diretórios), são entregas, dependêntes entre si, ou seja, o projeto final é composto pela soma de todas as entregas, cada uma em sua devida fase de projeto. Sendo Assim, a entrega de maior valor, exemplo: entrega3, é composta por todas as entregas inferiores + ela. Todas foram solicitadas ao longo do curso e juntas perfazem a nota que compõem a média final.
 
-🥋 Se você está entrando no Java agora, vou deixar um comentário apenas para orientá-lo, caso considere o código deste exercício estranho. Este exercício, em especial, foi considerado pelo professor e os demais colegas, o mais HARD de toda a Pós na disciplina Java II, sem exageros e caso não entenda de primeira, continue tentando, pois, o sucesso não só reside nos melhores, más também, nos persistentes, que considero meu caso (_😎tirei nota máxima_). Desenvolver software, nada mais é que descartar a possibilidade de desistência, independente de qualquer motivo! Esta aplicação roda 10 threads em paralelo, más, poderia rodar quantas você quisesse...(claro!!! Guardadas as proporções de memória)
+🥋 Se você está entrando no Java agora, vou deixar um comentário apenas para orientá-lo, caso considere o código destas entregas estranho. Existem todos os níveis de dificuldade, entretanto, as duas últimas foram consideradas pelo professor e os demais colegas, como mais HARD. Aqui, não estamos falando de Java tradicional e sim, Java no eco-sistema Android, até a IDE muda (são tratados assuntos como: banco de dados, gerenciamento de tela, CRUD completo, particularidades do DevAndroid e muito mais...) e sem exageros, caso não entenda de primeira, continue tentando, pois, o sucesso não só reside nos melhores, más também, nos persistentes, que considero meu caso (_😎tirei nota 9.9 rsrsrs♻️). Desenvolver software, nada mais é que descartar a possibilidade de desistência, independente de qualquer motivo!
 
-## Corrida de Motocicletas
+## Deve-se utilizar:
 
-😵 Objetivo:
+   - O Android Studio Dolphin 2021.3.1 ou superior (apenas versões estáveis);
+   - Versão do Gradle específica da versão do Android Studio utilizada;
+   - Minimum API Level 16 (minSdkVersion 16 no build.gradle (Module: app), que irá alterar a geração do AndroidManifest.xml);
+   - targetSDK Version para a API Level 31 (Android 12.0) ou superior.
 
-Exercitar o conceito e a prática de Race Condition e Critical Sections através do uso de sincronismo de métodos e/ou objetos para simular uma corrida de motos onde o ganhador é aquele que somar mais pontos ao acessar a região crítica (ou linha de chegada).
+## 1️⃣ Entrega 01:
 
-👨‍💻 Requisitos:
+### 👨‍💻 Crie o projeto de um aplicativo com Nome relacionado ao Tema Escolhido e Aprovado pelo professor.
 
-1. (10 pts) O programa deve criar no mínimo 10 threads que vão representar cada competidor, cada competidor deve usar o seguinte nome: Competidor #N (onde N é o número da thread)
+- Neste projeto crie uma Activity que implemente um formulário de cadastro de uma das entidades previstas com as seguintes características:
 
-2. (10 pts) Haverá no mínimo 10 corridas
+   - Uso de elementos Textview; 
+   - Uso de elementos EditText (pelo menos 1);
+   - Uso de elementos RadioButton (pelo menos 2) com pelo menos um RadioGroup; 
+   - Uso de elementos CheckBox (pelo menos 1);
+   - Uso de elementos Spinner (pelo menos 1);
+   - Uso de 2 elementos Button;
+   - Um dos Buttons deve ter o rótulo "Limpar" e ao ser clicado limpará os valores dos elementos EditText e desmarcará os RadioButtons e CheckBox, e depois será mostrado um Toast indicando a ação realizada;
+   - Um dos Buttons deve ter o rótulo "Salvar" e ao ser clicado irá pegar os valores dos elementos EditText, CheckBox, Spinner e o RadioButton selecionado, e validar estes valores. Caso algum EditText esteja vazio ou nenhum RadioButton selecionado, deverá ser mostrado uma mensagem de erro em um Toast e o foco de edição voltará para o campo vazio (caso seja possível).
+   - Caso o formulário de cadastro fique maior do que a tela do dispositivo será necessário colocar barra de rolagem, para tal, utilize a classe ScrollView ou HorizontalScrollView.
 
-3. (10 pts) Uma corrida só inicia após o fim da corrida anterior, ou seja, quando todos os competidores cruzarem a linha de chegada (área crítica)
-
-4. (30 pts) O placar da nossa corrida será contabilizado toda vez que um corredor cruzar a linha de chegada (área crítica), o competidor receberá pontos de acordo com sua posição de chegada ou seja: competidor 3 chegou primeiro na área sincronizada, recebe 10 pontos, o competidor 5 chegou em segundo, recebe 9 pontos, e assim sucessivamente até que o ultimo a cruzar a linha de chegada ganhe 1 ponto
-
-5. (10 pts) As 10 corridas formam um campeonato, ganhará aquele que somar o maior número de pontos no campeonato
-
-6. (10 pts) Ao final do campeonato deverá ser apresentado o placar com o total dos pontos e o pódio
+ 
 
 🕵️ Critérios de aceite e avaliação do exercício:
 
-1. Cada requisito possui um peso que compõe 80 pontos no total, cumpra todos para ter nota máxima, cumpra alguns e sua nota será aplicada conforme cada requisito implementado.
 
-2. Estrutura do código (uso das regras de escrita da linguagem, estrutura) e parametrização dos valores de corridas e competidores (sim, eu posso querer ter um campeonato com 20 participantes e 30 corridas) terão peso de 10 pontos
-
-3. Entrega no prazo, 10 pontos
 
 🎯 Importante:
 
-- Cópias e/ou exercícios duplicados/idênticos serão descartados, apenas os pontos da entrega (se feita no prazo) serão contabilizados.
 
-- Faça o programa todo em apenas uma classe, utilize recursos como classes aninhadas para organização, caso envie o projeto e/ou PDF's ou vários arquivos, sua atividade não será avaliada e o ato do reenvio da mesma incorrerá em desconto por atraso
-
-- Envie APENAS o arquivo .java do programa, nada mais.
-
-- O objetivo da atividade também é parte da avaliação!
-
-- Envios com atraso tem o desconto da pontualidade (acima, item 3) e desconto de 1 ponto por dia de atraso, por exemplo: se vc atrasar 1 dia, terá 1 ponto de desconto por atraso + 10 da pontualidade, totalizando 11 pontos a menos na nota.
 
 # Tecnologia utilizada:
 
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+![Java Android](https://img.shields.io/badge/java%20android-%3DDC84.svg?style=for-the-badge&logo=android&logoColor=white)
 
 ## Tabela de Conteúdos
 
