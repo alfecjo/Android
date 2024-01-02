@@ -70,6 +70,20 @@ Na Activity de Cadastro (Feito na Entrega 1):
    - retirando os Buttons e incluindo um menu de opções com:
       -Um MenuItem com o rótulo "Adicionar", um ícone relacionado a esta ação, e com o parâmetro showAsAction com o valor ifRoom; Ao ser clicado deve-se abrir a Activity de cadastro esperando um resultado (startActivityForResult)
       - Um MenuItem com o rótulo "Sobre", sem ícone, que ao ser clicado abrirá a Activity de Autoria do App (startActivity).
+   - incluindo um Menu de Ação Contextual que será aberto quando o usuário manter pressionado um dos itens exibidos (na ListView ou RecyclerView). Este menu deve conter:
+      - Um MenuItem com o rótulo "Editar", um ícone relacionado a esta ação, e com o parâmetro showAsAction com o valor ifRoom; Ao ser acionado deve-se abrir a Activity de Cadastro passando os dados do Item selecionado (para que o usuário possa alterá-los) e esperando um resultado dela (startActivityForResult);
+      - Um MenuItem com o rótulo "Excluir", um ícone relacionado a esta ação, e com o parâmetro showAsAction com o valor ifRoom; Ao ser clicado deve-se remover o Item do ArrayList e na sequência chamar o método notifyDataSetChanged() do Adapter, que forçará o redesenho dos itens dentro da ListView ou RecyclerView.
+   - Modificando o método onActivityResult para que quando se retorne da Activity de Cadastro com sucesso (RESULT_OK) e com os novos valores de um item que sofreu edição, estes possam ser recuperados e atribuídos ao objeto da Entidade correspondente. Não esquecendo de após alterar as Entidades do ArrayList chamar o método notifyDataSetChanged() do Adapter, que forçará o redesenho dos itens dentro da ListView ou RecyclerView.
+- Altere a Activity de Cadastro:
+   - Permitindo que a mesma seja aberta em modo de edição, onde ela já é aberta com dados de uma Entidade já cadastrada, e o usuário poderá alterar os atributos preenchidos;
+   - Retirando os Buttons e incluindo um menu de opções com:
+      - Um MenuItem com o rótulo "Salvar, um ícone relacionado a esta ação, e com o parâmetro showAsAction com o valor ifRoom; Ao ser clicado deve-se recuperar os dados da interface, validá-los e devolvê-los para a Activity de Listagem com o método setResult e resultado RESULT_OK;
+      - Um MenuItem com o rótulo "Limpar, um ícone relacionado a esta ação, e com o parâmetro showAsAction com o valor ifRoom. Ao ser clicado deve-se limpar os valores cadastrados (EditText, CheckBox e RadioButtons) e mostrar uma mensagem em um Toast indicando a ação realizada.
+   - Incluindo um botão Up na barra do App, que quando clicado retorna para a Activity de Listagem cancelando a inclusão ou edição de dados aberta.
+- Altere a Activity com informações sobre a Autoria do Aplicativo:
+incluindo um botão Up na barra do App, que quando clicado retorna para a Activity de Listagem.
+
+
     
 
 
