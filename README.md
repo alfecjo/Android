@@ -144,7 +144,7 @@ incluindo um botão Up na barra do App, que quando clicado retorna para a Activi
 1. Clone o repositório ou baixe o arquivo .zip:
 
 ```bash
-git clone https://github.com/alfecjo/Java-II.git
+git clone https://github.com/alfecjo/android.git
 ```
 ## Uso
 
