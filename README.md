@@ -65,7 +65,7 @@ Na Activity de Cadastro (Feito na Entrega 1):
 ### 👨‍💻 Faça uma nova versão do projeto submetido na Entrega 3 substituindo os Buttons por MenuItens em Menus de Opções, incluindo um Menu de Ação contextual, além de botões Ups nas Activities secundárias.
 
 - Neste projeto além do entregue na versão anterior, deve-se:
-
+  
 - Altere a Activity de Listagem:
    - retirando os Buttons e incluindo um menu de opções com:
       -Um MenuItem com o rótulo "Adicionar", um ícone relacionado a esta ação, e com o parâmetro showAsAction com o valor ifRoom; Ao ser clicado deve-se abrir a Activity de cadastro esperando um resultado (startActivityForResult)
