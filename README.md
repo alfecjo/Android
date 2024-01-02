@@ -95,9 +95,28 @@ incluindo um botão Up na barra do App, que quando clicado retorna para a Activi
       - Exemplos: escolher forma de ordenação de itens em uma lista; se campos do cadastro já aparecerão com sugestão de preenchimento; se o aplicativo será apresentado utilizando outro tema ou o modo noturno; mostrar as funcionalidades mais usadas em destaque; e etc.
       - Não serão aceitos trocar a cor de fundo de layout (exemplo passado), ou salvar login e senha de usuário (visto que o aplicativo é para uso sem conexão).
     
+## 🔚 Projeto Final:
 
+### 👨‍💻 O projeto a ser entregue aqui contempla o que já foi pedido anteriormente nas Entregas Parciais de 1 a 5, além de incluir a persistência dos dados utilizando o Room e o uso de AlertDialogs para exibir mensagens ao usuário.
 
-🕵️ Critérios de aceite e avaliação do exercício:
+- Crie um aplicativo que atenda as seguintes funcionalidades:
+
+   - Especifique o tema que trata a aplicação. Este tema deverá ter sido lançado pelo aluno no questionário "Tema do Projeto", e o mesmo precisa ser aprovado previamente pelo professor.    - Não serão aceitos temas repetidos dentro da turma.
+   - Cadastre dados lançados pelo usuário, que tenham relação com a regra de negócio proposta para a aplicação (Nesta versão os dados serão persistidos no SQLite através do uso do Room);
+   - Crie pelo menos uma Classe de Entidade a ser manipulada dentro da aplicação;
+   - Crie pelo menos uma Activity que permita a manipulação dos dados (Inserção, Alteração e Remoção);
+   - Exiba um AlertDialog para confirmar a ação do usuário antes de excluir dados persistidos; 
+   - Crie pelo menos uma Activity que liste os itens cadastrados no banco de dados;
+   - Utilize pelo menos um Adapter Customizado em uma Activity que liste os itens;
+   - Crie uma Activity onde mostra-se as informações sobre o que faz o aplicativo, e os dados da autoria dele;
+   - Utilize Menus de Opções, onde as ações aparecem com ícones na barra de ação da Activity;
+   - Utilize Menu de Ação Contextual, onde as ações aparecem com ícones na barra de ação da Activity;
+   - Utilize botões Up na barra de ações das Activities secundárias, para facilitar a volta do usuário destas para as Activities especificadas como pais destas;
+   - Forneça alguma possibilidade de configuração ou personalização do aplicativo, e persista estas informações usando SharedPreferences; 
+   - O Aplicativo deve suportar dois idiomas, o inglês como padrão e o português Brasileiro como opcional.
+
+🕵️ Critérios de aceite e avaliação:
+![avaliacao](avaliacao.jpg)
 
 
 
