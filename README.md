@@ -116,13 +116,17 @@ incluindo um botão Up na barra do App, que quando clicado retorna para a Activi
    - O Aplicativo deve suportar dois idiomas, o inglês como padrão e o português Brasileiro como opcional.
 
 🕵️ Critérios de aceite e avaliação:
-![avaliacao](avaliacao.jpg)
-
-
+![pontuacao](pontuacao.jpg)
 
 🎯 Importante:
 
+   - Nos dias de entrega do Projeto Final, caso seja necessário, o professor poderá conversar com cada aluno para que o mesmo apresente o aplicativo criado, explique o código, e tire dúvidas sobre o desenvolvimento de cada funcionalidade.
 
+   - Caso o aluno não saiba apresentar o projeto, o mesma poderá ser recusado e ter a nota zerada.
+
+   - Caso o projeto não compile o mesmo terá a nota zerada.
+
+   - Caso o projeto entregue seja o projeto de outro (como um exemplo passado pelo professor) que foi alterado para atender os requisitos pedidos, o mesmo terá a nota zerada. O aluno pode utilizar os códigos passados na disciplina porém deve criar um projeto novo, e reescrever e não apenas colar o código que irá aproveitar.
 
 # Tecnologia utilizada:
 
@@ -144,8 +148,7 @@ git clone https://github.com/alfecjo/Java-II.git
 ```
 ## Uso
 
-1. Execute em sua IDE de preferência. Contudo, o desenvolvimento foi feito no IntelliJ! Você pode começar com: "mvn install", no diretório raiz, que é onde se encontra o
-   arquivo pom.xml. Desta forma, serão baixadas as dependências, caso seja necessário.
+1. Execute em sua IDE de preferência. Contudo, o desenvolvimento foi feito no Android Studio! Respeite as orientações de versões, pois arquitetura Android leva muito a sério este assunto, MUITO A SÉRIO!!!
 
 ## Contribuição
 
