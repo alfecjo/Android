@@ -4,7 +4,7 @@
 ## Este material foi desenvolvido em resposta a disciplina 'Android para Dispositivos Móveis', a qual faz parte do curso de Pós Graduação em Tecnologia Java, ministrado pela Universidade Tecnológica Federal do Paraná.
 🎉 Os projetos (contidos nos diretórios), são entregas, dependêntes entre si, ou seja, o projeto final é composto pela soma de todas as entregas, cada uma em sua devida fase de projeto. Sendo Assim, a entrega de maior valor, exemplo: entrega3, é composta por todas as entregas inferiores + ela. Todas foram solicitadas ao longo do curso e juntas perfazem a nota que compõem a média final.
 
-🥋 Se você está entrando no Java agora, vou deixar um comentário apenas para orientá-lo, caso considere o código destas entregas estranho. Existem todos os níveis de dificuldade, entretanto, as duas últimas foram consideradas pelo professor e os demais colegas, como mais HARD. Aqui, não estamos falando de Java tradicional e sim, Java no eco-sistema Android, até a IDE muda (são tratados assuntos como: banco de dados, gerenciamento de tela, CRUD completo, particularidades do DevAndroid e muito mais...) e sem exageros, caso não entenda de primeira, continue tentando, pois, o sucesso não só reside nos melhores, más também, nos persistentes, que considero meu caso (_😎tirei nota 9.9 rsrsrs♻️). Desenvolver software, nada mais é que descartar a possibilidade de desistência, independente de qualquer motivo!
+🥋 Se você está entrando no Java agora, vou deixar um comentário apenas para orientá-lo, caso considere o código destas entregas estranho. Existem todos os níveis de dificuldade, entretanto, as duas últimas foram consideradas pelo professor e os demais colegas, como mais HARD. Aqui, não estamos falando de Java tradicional e sim, Java no eco-sistema Android, até a IDE muda (são tratados assuntos como: banco de dados, gerenciamento de tela, CRUD completo, particularidades do DevAndroid e muito mais...) e sem exageros, caso não entenda de primeira, continue tentando, pois, o sucesso não só reside nos melhores, mas também, nos persistentes, que considero meu caso (_😎tirei nota 9.9 rsrsrs♻️). Desenvolver software, nada mais é que descartar a possibilidade de desistência, independente de qualquer motivo!
 
 ## Deve-se utilizar:
 
@@ -29,7 +29,7 @@
    - Um dos Buttons deve ter o rótulo "Salvar" e ao ser clicado irá pegar os valores dos elementos EditText, CheckBox, Spinner e o RadioButton selecionado, e validar estes valores. Caso algum EditText esteja vazio ou nenhum RadioButton selecionado, deverá ser mostrado uma mensagem de erro em um Toast e o foco de edição voltará para o campo vazio (caso seja possível).
    - Caso o formulário de cadastro fique maior do que a tela do dispositivo será necessário colocar barra de rolagem, para tal, utilize a classe ScrollView ou HorizontalScrollView.
 
- ## 2️⃣ Entrega 02:
+## 2️⃣ Entrega 02:
 
 ### 👨‍💻 Faça uma nova versão do projeto submetido na Entrega 1 criando uma nova Activity que listará itens, estes serão objetos de um tipo de Entidade relacionada ao Tema do Projeto. 
 
